@@ -24,7 +24,7 @@
             id="search-form-input"
             class="search-form-input"
           />
-          <input type="submit" value="Search" class="search-form-button" />
+          <input type="submit" value="Search" id="search-form-button" />
         </form>
       </header>
       <main>
@@ -32,7 +32,7 @@
           <div>
             <h1 class="weather-app-city" id="city">Berlin</h1>
             <p class="weather-app-details">
-              Wednesday 15:15, scattered clouds
+              Wednesday 15:15, <span id="description"></span>
               <br />
               Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
             </p>
@@ -60,6 +60,6 @@
         </a>
       </footer>
     </div>
-    <script src="src/index.js"></script>
   </body>
+  <script src="src/index.js"></script>
 </html>
