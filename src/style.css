@@ -29,7 +29,7 @@ header {
 }
 
 .search-form-button {
-  background: #d8bfd8;
+  background: black;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
@@ -37,6 +37,7 @@ header {
   color: white;
   font-size: 16px;
 }
+
 main {
   padding: 30px 0;
 }
@@ -99,8 +100,9 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 88px;
+  height: 88px;
+  display: block;
 }
 
 .weather-forecast-temperatures {
